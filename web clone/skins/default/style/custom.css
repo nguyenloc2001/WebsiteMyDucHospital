@@ -1,0 +1,193 @@
+.vnt-langues a,
+.langues_mb a .text {
+    text-transform: uppercase;
+}
+
+/* Map styling*/
+
+#ce_map_container {
+    border: 2px solid #CCC;
+    background-color: #CCC;
+    font-size: 12px;
+}
+
+#ce_map_canvas {
+    width: 100%;
+    height: 300px
+}
+
+#ce-directionsPanel {
+    background-color: #FFF
+}
+
+/* Direction */
+
+#ce-map-cpanel-switch {
+    padding: 8px;
+    font-size: 120%;
+    height: 40px;
+    margin-top: 2px;
+    background: #444 url("../images/map-icon.png") no-repeat 20px center
+}
+
+#ce-map-cpanel-switch a.ce-route,
+#ce-map-cpanel-switch a.ce-route:visited {
+    color: #FFF;
+    display: block;
+    float: left;
+    margin: 10px 0 0 65px
+}
+
+.ce-map-cpanel fieldset {
+    border-color: #CCC;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 3px
+}
+
+.ce-map-cpanel fieldset legend {
+    font-size: 150%
+}
+
+.ce-map-cpanel div {
+    clear: left;
+    display: block;
+    width: 100%
+}
+
+.ce-map-cpanel label {}
+
+.ce-map-cpanel div.submit div,
+.ce-map-cpanel div.submit div button {
+    display: inline
+}
+
+/* Coordinates*/
+
+#ce-map-coordinates {
+    background-color: #F2EFE9;
+    height: 15px;
+    margin-top: 2px;
+    padding: 5px 0
+}
+
+#ce-map-coordinates div {
+    float: left;
+    width: 49%;
+    text-align: center
+}
+
+.ce-map-coord-label {
+    font-weight: bolder
+}
+
+.ce-map-coord-value {}
+
+/* MAP: End*/
+
+.formRecruit input[type="number"],
+.formRecruit input[type="email"],
+.formRecruit select {
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    border: solid 1px #d1d1d1;
+}
+
+.bannerSidebar .adv {
+    margin-bottom: 15px;
+}
+
+.galleryNews .grid .col {
+    padding: 5px;
+}
+
+.trip .tend h3 {
+    text-transform: uppercase;
+}
+
+/* about my duc */
+
+#aboutHome .slick-dots {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+
+#aboutHome .slick-dots li {
+    margin-left: 5px;
+}
+
+#aboutHome .slick-dots li:first-child {
+    margin-left: 0;
+}
+
+#aboutHome .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    background: #d3d3d3;
+    border: none;
+    font-size: 0;
+    padding: 0;
+}
+
+#aboutHome .slick-dots li.slick-active button {
+    background: #1596d2;
+}
+
+#aboutHome {
+    width: 370px;
+    float: left;
+    position: relative;
+}
+
+.address_ft {
+    margin-top: 15px;
+}
+
+.copyright {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    #aboutHome {
+        width: 100%;
+        float: left !important;
+    }
+    #aboutHome .img {
+        width: 100%;
+        float: left !important;
+    }
+}
+
+.profileDoctor .attr .at {
+    width: 12%;
+}
+
+/* about my duc */
+
+.info-contact ul li {
+    padding-left: 30px;
+}
+
+.info-contact ul li:before {
+    left: 5px;
+}
+
+.info-contact .reproduction {
+    background-image: url('../images/aaaa.png');
+    background-repeat: no-repeat;
+    background-position-x: 3px;
+    background-position-y: 3px;
+    filter: grayscale(100%);
+}

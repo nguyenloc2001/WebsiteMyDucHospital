@@ -1,0 +1,41 @@
+.menuTop>ul {
+    width: 85%;
+    float: left;
+}
+
+.menuTop .text_domain {
+    width: 15%;
+    float: right;
+    text-align: center;
+    background: #005490ab;
+}
+
+.menuTop .text_domain a {
+    text-transform: uppercase;
+    padding: 5px 0px;
+    display: block;
+    color: #ffffff;
+}
+
+.header-tools .languageMobile a {
+    font-size: 11px;
+}
+
+.header-tools .languageMobile {
+    width: 123px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+
+.header-tools .languageMobile .hospital_mobile {
+    text-align: center;
+    width: 100px;
+    /*font-weight: bold;*/
+}
+
+.header-tools .languageMobile a:nth-child(2) {
+    padding-top: 7px;
+}

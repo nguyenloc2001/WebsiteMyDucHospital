@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300&subset=latin,vietnamese);
+#popup_container {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    min-width: 300px;
+    /* Dialog will be no smaller than this */
+    max-width: 600px;
+    /* Dialog will wrap after this width */
+    background: #FFF;
+    color: #000;
+}
+
+#popup_title {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    color: #333333;
+    background: #e2e2e2;
+    cursor: default;
+    padding: 0em;
+    margin: 0em;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#popup_content {
+    background: 16px 16px no-repeat url(images/info.gif);
+    padding: 1em 1.75em;
+    margin: 0em;
+}
+
+#popup_content.alert {
+    background-image: url(images/info.gif);
+}
+
+#popup_content.confirm {
+    background-image: url(images/important.gif);
+}
+
+#popup_content.prompt {
+    background-image: url(images/help.gif);
+}
+
+#popup_message {
+    padding-left: 48px;
+    font-size: 14px;
+}
+
+#popup_panel {
+    text-align: center;
+    margin: 1em 0em 0em 1em;
+}
+
+#popup_prompt {
+    margin: .5em 0em;
+}
+
+#popup_panel .btn_alert {
+    padding: 0px 20px;
+    margin: 0 5px;
+    height: 34px;
+    border: none;
+    background: #337AB7;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#popup_panel .btn_alert:hover {
+    background: #0079c2;
+}
+
+#popup_ok {
+    background: #0079c2 !important;
+}
